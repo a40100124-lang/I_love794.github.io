@@ -1,1 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Профиль @I_love794 — Защищён</title>
+  <style>
+    :root{--bg:#071026;--card:#0f1724;--muted:#98a6b8;--accent:#ffd966}
+    *{box-sizing:border-box;font-family:Inter, system-ui, Arial, sans-serif}
+    body{margin:0;background:linear-gradient(180deg,#051221 0%, #071726 100%);color:#e6eef6;display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+    .card{width:100%;max-width:760px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:26px;border:1px solid rgba(255,255,255,0.03);box-shadow:0 10px 30px rgba(2,6,23,0.6)}
+    .row{display:flex;gap:18px;align-items:center}
+    .logo{width:78px;height:78px;border-radius:12px;background:linear-gradient(135deg,#0b1320,#0f1724);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:var(--accent);border:1px solid rgba(255,255,255,0.03)}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:8px 0 14px;color:var(--muted);line-height:1.45}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);color:#dfe9f6;font-weight:600;font-size:13px}
+    .buttons{display:flex;gap:12px;margin-top:16px;flex-wrap:wrap}
+    .btn{padding:10px 14px;border-radius:10px;text-decoration:none;color:#071026;background:#e6eef6;font-weight:700;display:inline-flex;align-items:center;gap:10px}
+    .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#dfe9f6;padding:10px 12px}
+    .foot{margin-top:16px;color:var(--muted);font-size:13px}
+    .note{color:var(--accent);font-weight:700}
+    @media(max-width:520px){.row{flex-direction:column;align-items:flex-start}.logo{width:64px;height:64px}}
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-label="Профиль I_love794 защищён">
+    <div class="row">
+      <div class="logo">I💖794</div>
+      <div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <h1>⚔️ @I_love794 — профиль защищён</h1>
+          <span class="badge">Безопасность аккаунта</span>
+        </div>
+        <p class="lead">
+          Этот аккаунт использует современные меры защиты: двухфакторную аутентификацию, резервные копии и активную модерацию. 
+          Любые попытки выдачи себя за меня фиксируются и пресекаются в рамках правового поля.
+        </p>
 
+        <div class="buttons">
+          <a class="btn" href="https://t.me/I_love794" target="_blank" rel="noopener">Открыть профиль (веб)</a>
+          <a class="btn btn-ghost" href="tg://resolve?domain=I_love794">Открыть в Telegram</a>
+          <a class="btn btn-ghost" href="mailto:contact@i-lovemail.example">Связаться</a>
+        </div>
+
+        <p class="foot">
+          <span class="note">⚠️ Важно:</span> На этой странице указаны реальные меры безопасности аккаунта. 
+          Здесь <strong>не утверждается</strong> официальной проверки или одобрения со стороны государственных органов.
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
